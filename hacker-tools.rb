@@ -1,8 +1,8 @@
 class HackerTools < Formula
-  desc "Jordan's hacker toolbox"
-  homepage "https://github.com/jordanmesquita/hacker-tools"
-  url "file://$(pwd)/hacker-tools-1.0.0.tar.gz"
-  sha256 "$(shasum -a 256 hacker-tools-1.0.0.tar.gz | cut -d' ' -f1)"
+  desc "Jordan's hacker toolbox: textbin + trans"
+  homepage "https://github.com/Jordanmesquita/hacker-tools"
+  url "https://github.com/Jordanmesquita/hacker-tools/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "REPLACE_WITH_REAL_HASH"
   license "MIT"
 
   def install
